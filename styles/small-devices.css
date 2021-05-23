@@ -1,0 +1,53 @@
+
+/* General properties */
+
+.wrapper {
+    margin: 0% 5%;
+}
+.info {
+    padding-top: 35%;
+    height: 160px;
+}
+
+/* Statistics properties */
+
+.statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 38%;
+}
+.followers > h1 {
+    font-size: 21px;
+    padding-left: 34px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.followers > h6 {
+    font-size: 13px;
+    padding-left: 22px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 59%);
+}
+.likes > h1 {
+    font-size: 21px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.likes > h6 {
+    font-size: 13px;
+}
+.photos > h1 {
+    font-size: 21px;
+    padding-right: 25px;
+}
+.photos > h6 {
+    font-size: 13px;
+    font-weight: normal;
+    padding-left: 3px;
+}
+hr {
+    bottom: 96px;
+}

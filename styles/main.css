@@ -1,0 +1,135 @@
+
+/* General properties */
+
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(185, 75%, 39%);
+}
+
+/* Background properties */
+
+.bg-top {
+    position: fixed;
+    transform: rotate(150deg);
+    z-index: 1;
+}
+.bg-top > img {
+    transform: translateX(50%);
+    transform: translateY(60%);
+}
+.bg-bottom {
+    position: fixed;
+    transform: translate(37%, 25%);
+    z-index: 1;
+}
+
+/* Container properties */
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card {
+    border-radius: 16px;
+    z-index: 2;
+}
+
+/* Content properties */
+
+.info {
+    background-image: url('../images/bg-pattern-card.svg');
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    background-size: cover;
+    height: 190px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 34%;
+}
+.info > img {
+    border-radius: 100%;
+    z-index: 1;
+    border: 5px solid white;
+}
+.info > h1 {
+    padding-top: 5%;
+    font-weight: bold;
+    padding-bottom: 2%;
+    font-size: 21px;
+}
+.info > h1 > span {
+    font-size: 21px;
+    font-weight: lighter;
+    color: hsl(0, 0%, 59%);
+}
+.info > h4 {
+    font-size: 18px;
+    padding-top: 6px;
+    color: hsl(0, 0%, 59%);
+    font-weight: initial;
+}
+
+/* Statistics properties */
+
+.statistics {
+    margin-top: 38%;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 60px 0px 60px;
+}
+.followers > h1 {
+    font-size: 25px;
+    padding-right: 66px;
+    padding-left: 7px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.followers > h6 {
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 59%);
+}
+.likes > h1 {
+    font-size: 25px;
+    padding-right: 66px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.likes > h6 {
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 8px;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 59%);
+}
+.photos > h1 {
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.photos > h6 {
+    font-size: 15px;
+    font-weight: normal;
+    padding-left: 3px;
+    letter-spacing: 1px;
+    color: hsl(0, 0%, 59%);
+}
+hr {
+    position: relative;
+    bottom: 120px;
+}
+
+
